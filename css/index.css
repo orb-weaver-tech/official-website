@@ -22,7 +22,10 @@ p{
 }
 
 .main{
-    background-image: url('https://vpassets.infinityfree.net/welcome2017/background.jpg');
+    /*
+    background-image: url('https://vpassets.infinityfree.net/welcome2017/background.jpg'); 
+    */
+    background-image: url(../media/cobweb.jpg);
     background-position: center center;
     background-size: cover;
     height: auto;
@@ -32,6 +35,7 @@ p{
     position: absolute;
     top: 0;
     width: auto;
+    opacity: 90%;
 }
 .cover{
     position: fixed;
