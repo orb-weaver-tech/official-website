@@ -1,78 +1,96 @@
 <!DOCTYPE html>
 <!-- saved from url=(0061)https://mdbootstrap.com/api/snippets/embed/102518/fullscreen# -->
 <html lang="en">
-    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <head>
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width" />
         
-        <title>Documentation - Regular Fixed Color Navigation</title>
-        <style>
-            body {
-                margin: 0;
-                padding: 0;
-            }
-        </style>
+        <title>Orb Weaver</title>
+        <link rel="shortcut icon" href="./media/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" type="text/css" href="./css/all.css">
         <link rel="stylesheet" type="text/css" href="./css/css">
         <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="./css/mdb.min.css">
         <link rel="stylesheet" type="text/css" href="./css/compiled-addons-4.19.1.min.css">
         <link rel="stylesheet" href="./css/style.css">
+        
     </head>
-    <body aria-busy="true">
+    <body>
 
 
-        <!--Main Navigation-->
         <header>
-
-            <nav class="navbar fixed-top navbar-expand-lg navbar-dark pink scrolling-navbar">
-                <a class="navbar-brand" href="#"><strong>Navbar</strong></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+            <!--Navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+              <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img id="image" src="./media/Orb-wevear.png" alt="Orb Wevear" height="70">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link waves-effect waves-light" href="https://mdbootstrap.com/api/snippets/embed/102518/fullscreen#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="https://mdbootstrap.com/api/snippets/embed/102518/fullscreen#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="https://mdbootstrap.com/api/snippets/embed/102518/fullscreen#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="https://mdbootstrap.com/api/snippets/embed/102518/fullscreen#">Opinions</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav nav-flex-icons">
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light"><i class="fab fa-facebook-f"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light"><i class="fab fa-twitter"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light"><i class="fab fa-instagram"></i></a>
-                        </li>
-                    </ul>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Profile</a>
+                    </li>
+                  </ul>
                 </div>
+              </div>
             </nav>
+            <!-- Navbar -->
 
-        </header>
-        <!--Main Navigation-->
-
-        <!--Main Layout-->
-        <main>
-            <div class="container" style="height:1300px;">
-                <div class="row mt-5 pt-5">
-                    <div class="col text-center">
-                        <h2>This Navbar is fixed</h2>
-                        <h5>It will always stay visible on the top, even when you scroll down</h5>
-                        <br>
-                        <p>Full page intro with background image will be always displayed in full screen mode, regardless of device </p>
+            <!-- Full Page Intro -->
+            <div class="view" style="background-image: url('./media/pexels.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+              <!-- Mask & flexbox options-->
+              <div class="mask rgba-black-light align-items-center">
+                <!-- Content -->
+                <div class="container">
+                  <!--Grid row-->
+                  <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-12 mb-4 white-text text-center">
+                      <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>Minimalist intro</strong></h1>
+                      <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
+                      <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Photography & design</strong></h5>
+                      <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">portfolio</a>
+                      <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">About me</a>
                     </div>
+                    <!--Grid column-->
+                  </div>
+                  <!--Grid row-->
                 </div>
+                <!-- Content -->
+              </div>
+              <!-- Mask & flexbox options-->
             </div>
-        </main>
+            <!-- Full Page Intro -->
+        </header>
+
+          <!-- Main navigation -->
+          <!--Main Layout-->
+          <main>
+            <div class="container">
+              <!--Grid row-->
+              <div class="row py-5">
+                <!--Grid column-->
+                <div class="col-md-12 text-center">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </div>
+          </main>
         <!--Main Layout-->
 
 
@@ -85,6 +103,11 @@
         <script src="./js/bootstrap.min.js"></script>
         <script src="./js/mdb.min.js"></script>
         <script src="./js/compiled-addons.min.js"></script>
+        <script src="./js/script.js"></script>
+        <script>
+            // Animations init
+            new WOW().init();
+        </script>
         <div class="hiddendiv common">
         </div>
     </body>
