@@ -40,3 +40,7 @@ h5 {
   border-top: 3px solid #fff;
   width: 80px;
 }
+
+.mail{
+  background-image: url("../media/mail.png");
+}
